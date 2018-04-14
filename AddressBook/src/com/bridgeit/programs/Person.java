@@ -2,16 +2,10 @@ package com.bridgeit.programs;
 
 public class Person {
 	
-	private String firstName;
+    private String firstName;
     private String lastName;
     private int phoneNo;
     private Address address;
-    
-    /*private void Person(String fname,String lname,int phoneno) {
-		this.firstName=fname;
-		this.lastName=lname;
-		this.phoneNo=phoneno;
-	}*/
     
 	public Address getAddress() {
 		return address;
