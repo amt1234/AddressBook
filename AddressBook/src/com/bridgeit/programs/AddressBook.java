@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.Scanner;
 
-@SuppressWarnings({})
+
 public class AddressBook {
 	static Scanner sc = new Scanner(System.in);
 	@SuppressWarnings({ "unchecked", "rawtypes" })

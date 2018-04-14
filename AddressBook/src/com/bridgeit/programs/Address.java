@@ -4,13 +4,7 @@ public class Address {
 	private String state;
 	private String city;
 	private int zip;
-/*
-	private void Address(String state, String city, int zip) {
-		this.state = state;
-		this.city = city;
-		this.zip = zip;
-	}
-*/
+
 	public String getState() {
 		return state;
 	}
@@ -39,10 +33,5 @@ public class Address {
 	public String toString() {
 		return "Address [state=" + state + ", city=" + city + ", zip=" + zip + "]";
 	}
-
-	/*
-	 * public String toString() { return
-	 * ("State Name :"+getState()+"City Name :"+getCity()+"Zip code :"+getZip()); }
-	 */
 
 }
